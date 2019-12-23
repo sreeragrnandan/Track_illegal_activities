@@ -4,4 +4,4 @@ Data for the processes <a hreh="https://github.com/sreeragrnandan/Data_Track_ill
 women haresment
 <h2>Project Stage This Far</h2>
 1) Made model for smoking issue (check whether a person is smoking or not) using Max Pooling technique (If there is a better technique    please correct us) 
-2)Data collection in progress (we are collecting as much as data we can) please visit the above link to see the datas
+<br \>2)Data collection in progress (we are collecting as much as data we can) please visit the above link to see the datas
