@@ -59,8 +59,8 @@ x = layers.MaxPooling2D(2)(x)
 # Convolution is followed by max-pooling layer with a 2x2 window
 x = layers.Conv2D(64, 3, activation='relu')(x)
 x = layers.MaxPooling2D(2)(x)
-
-
+```
+```python
 # Create a fully connected layer with ReLU activation and 512 hidden units
 x = layers.Flatten()(x)
 # Create a fully connected layer with ReLU activation and 512 hidden units
