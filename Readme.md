@@ -32,3 +32,4 @@ for i, img_path in enumerate(next_smoking_pix+next_not_smoking_pix):
   img = mpimg.imread(img_path)
   plt.imshow(img)
 ```
+<img src="img.jpg" height="250px" >
