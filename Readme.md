@@ -4,7 +4,8 @@ Data for the processes <a hreh="https://github.com/sreeragrnandan/Data_Track_ill
 women haresment
 ## Project Stage This Far
 1) Made model for smoking issue (check whether a person is smoking or not) using Max Pooling technique (If there is a better technique    please correct us) 
-<br />2)Data collection in progress (we are collecting as much as data we can) please visit the above link to see the datas
+<br />
+2)Data collection in progress (we are collecting as much as data we can) please visit the above link to see the datas
 ### Apporach 
 We are using TensorFlow to construct the model(neural network)
 #### Data into two Train and Validation
@@ -33,7 +34,7 @@ for i, img_path in enumerate(next_smoking_pix+next_not_smoking_pix):
   plt.imshow(img)
 ```
 <img src="img.JPG" height="250px">
-<br \>
+<br />
 
 #### Making layers of CNN
 
@@ -143,8 +144,7 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
     plt.imshow(display_grid, aspect='auto', cmap='viridis')
 
 ```
-#### Checking the accuracy of constructed model
-To know accuracy of model we are checking the accuracy of model and ploting a graph (we think due to poor quality of data it have low validation accuracy)
-<br \>
+#### Checking the accuracy of the constructed model
+To know the accuracy of the model we are checking the accuracy of the model and plotting a graph (we think due to poor quality of data it has low validation accuracy)
 
-<img src="img3.JPG">
+<img src="img3.JPG" height="500px">
