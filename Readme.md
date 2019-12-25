@@ -7,6 +7,7 @@ women haresment
 <br />2)Data collection in progress (we are collecting as much as data we can) please visit the above link to see the datas
 ### Apporach 
 <br />We are using TensorFlow to construct the model(neural network)
+#### Data into two Train and Validation
 <br />First the data is splitted into two Train and Validation
 ```python
 train_dir = os.path.join(base_dir, 'train')
