@@ -57,4 +57,16 @@ x = layers.MaxPooling2D(2)(x)
 # Convolution is followed by max-pooling layer with a 2x2 window
 x = layers.Conv2D(64, 3, activation='relu')(x)
 x = layers.MaxPooling2D(2)(x)
+
+# Create a fully connected layer with ReLU activation and 512 hidden units
+x = layers.Flatten()(x)
+# Create a fully connected layer with ReLU activation and 512 hidden units
+x = layers.Dense(512, activation='relu')(x)
+# Create output layer with a single node and sigmoid activation
+output = layers.Dense(1, activation='sigmoid')(x)
+# Create Model
+# input = input feature map
+# output = input feature map + stacked convolution/maxpooling layers + fully 
+# connected layer + sigmoid output layer
+model = Model(img_input, output)
 ```
