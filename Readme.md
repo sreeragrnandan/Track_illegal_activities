@@ -143,3 +143,8 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
     plt.imshow(display_grid, aspect='auto', cmap='viridis')
 
 ```
+#### Checking the accuracy of constructed model
+To know accuracy of model we are checking the accuracy of model and ploting a graph (we think due to poor quality of data it have low validation accuracy)
+<br \>
+
+<img src="img3.JPG">
