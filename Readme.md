@@ -84,7 +84,6 @@ model.compile(loss='binary_crossentropy',
 #### Checking result from each layers
 To check whether the intermediate layer are working properly we are executing this step
 <img src="img2.JPG" height="250px">
-<br \>
 
 
 ```python
