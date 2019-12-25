@@ -33,6 +33,8 @@ for i, img_path in enumerate(next_smoking_pix+next_not_smoking_pix):
   plt.imshow(img)
 ```
 <img src="img.JPG" height="250px">
+<br \>
+
 #### Making layers of CNN
 
 ```python
