@@ -39,22 +39,25 @@ We use TensorFlow keras to construct layers and models of neural network
 ```python
 from tensorflow.keras import layers
 from tensorflow.keras import Model
-
-
+```
+```python
 # Our input feature map is 150x150x3: 150x150 for the image pixels, and 3 for
 # the three color channels: R, G, and B
 img_input = layers.Input(shape=(150, 150, 3))
-
+```
+```python
 # First convolution extracts 16 filters that are 3x3
 # Convolution is followed by max-pooling layer with a 2x2 window
 x = layers.Conv2D(16, 3, activation='relu')(img_input)
 x = layers.MaxPooling2D(2)(x)
-
+```
+```python
 # Second convolution extracts 32 filters that are 3x3
 # Convolution is followed by max-pooling layer with a 2x2 window
 x = layers.Conv2D(32, 3, activation='relu')(x)
 x = layers.MaxPooling2D(2)(x)
-
+```
+```python
 # Third convolution extracts 64 filters that are 3x3
 # Convolution is followed by max-pooling layer with a 2x2 window
 x = layers.Conv2D(64, 3, activation='relu')(x)
