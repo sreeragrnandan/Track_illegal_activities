@@ -4,10 +4,10 @@ Data for the processes <a hreh="https://github.com/sreeragrnandan/Data_Track_ill
 women haresment
 ## Project Stage This Far
 1) Made model for smoking issue (check whether a person is smoking or not) using Max Pooling technique (If there is a better technique    please correct us) 
-<br \>2)Data collection in progress (we are collecting as much as data we can) please visit the above link to see the datas
+<br />2)Data collection in progress (we are collecting as much as data we can) please visit the above link to see the datas
 ### Apporach 
-<br \>We are using TensorFlow to construct the model(neural network)
-<br \>First the data is splitted into two Train and Validation
+<br />We are using TensorFlow to construct the model(neural network)
+<br />First the data is splitted into two Train and Validation
 ```python
 train_dir = os.path.join(base_dir, 'train')
 validation_dir = os.path.join(base_dir, 'validation')
