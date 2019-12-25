@@ -34,7 +34,7 @@ for i, img_path in enumerate(next_smoking_pix+next_not_smoking_pix):
 ```
 
 #### Making layers of CNN
-<br />
+
 ```python
 from tensorflow.keras import layers
 from tensorflow.keras import Model
