@@ -32,8 +32,9 @@ for i, img_path in enumerate(next_smoking_pix+next_not_smoking_pix):
   img = mpimg.imread(img_path)
   plt.imshow(img)
 ```
-<img src="img.JPG" height="250px" >
+
 #### Making layers of CNN
+<br />
 We use TensorFlow keras to construct layers and models of neural network
 ```python
 from tensorflow.keras import layers
