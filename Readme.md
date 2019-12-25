@@ -72,3 +72,12 @@ output = layers.Dense(1, activation='sigmoid')(x)
 # connected layer + sigmoid output layer
 model = Model(img_input, output)
 ```
+
+
+#### Compiling model
+We are using ```binary_crossentropy``` as loss function ```RMSprop``` as optimizer with learning rate ```0.001```
+```python
+model.compile(loss='binary_crossentropy',
+              optimizer=RMSprop(lr=0.001),
+              metrics=['acc'])
+```
