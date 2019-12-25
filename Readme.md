@@ -81,3 +81,6 @@ model.compile(loss='binary_crossentropy',
               optimizer=RMSprop(lr=0.001),
               metrics=['acc'])
 ```
+#### Checking result from each layers
+To check whether the intermediate layer are working properly we are executing this step
+<img src="img2.JPG" height="250px">
