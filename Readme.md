@@ -5,7 +5,7 @@ women haresment
 ## Project Stage This Far
 1) Made model for smoking issue (check whether a person is smoking or not) using Max Pooling technique (If there is a better technique    please correct us) 
 <br />
-2)Data collection in progress (we are collecting as much as data we can) please visit the above link to see the data
+2) Data collection in progress (we are collecting as much as data we can) please visit the above link to see the data
 <br />
 
 ### Apporach 
