@@ -3,9 +3,8 @@ Data for the processes <a hreh="https://github.com/sreeragrnandan/Data_Track_ill
 <br /> We are planing to make a system that will report illegal activities like smoking in public place, child begging/labour and 
 women haresment
 ## Problem Statement
-We are developing a system to recognise and report illegal activities that often happens in public place
-<br />1) Smoking in public place
-
+We are developing a system to recognise and report illegal activities that often happens in public place such as:
+<br />1) Smoking
 <br />2) Child begging 
 <br />3) Child Labour
 <br />4) Women abuse
