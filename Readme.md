@@ -2,10 +2,19 @@
 Data for the processes <a hreh="https://github.com/sreeragrnandan/Data_Track_illegal_activities">[Click here](https://github.com/sreeragrnandan/Data_Track_illegal_activities)</a>
 <br /> We are planing to make a system that will report illegal activities like smoking in public place, child begging/labour and 
 women haresment
+## Problem Statement
+We are developing a system to recognise and report illegal activities that often happens in public place
+<br />1) Smoking in public place
+
+<br />2) Child begging 
+<br />3) Child Labour
+<br />4) Women abuse
+<br /> Often we see this kind of activities but we are afraid of going to police or report to authorities. 
+This system automatically report it the incidence to the proper authority and helps to stop this kind of activities 
 ## Project Stage This Far
 1) Made model for smoking issue (check whether a person is smoking or not) using Max Pooling technique (If there is a better technique    please correct us) 
 <br />
-2) Data collection in progress (we are collecting as much as data we can) please visit the above link to see the data
+2) Data collection progress (we are collecting as much as data we can) please visit the above link to see the data
 <br />
 
 ### Apporach 
