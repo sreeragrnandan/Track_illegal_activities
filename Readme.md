@@ -157,4 +157,4 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
 #### Checking the accuracy of the constructed model
 To know the accuracy of the model we are checking the accuracy of the model and plotting a graph (we think due to poor quality of data it has low validation accuracy)
 
-<img src="img3.JPG" height="500px">
+<!--<img src="img3.JPG" height="500px"> -->
