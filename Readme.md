@@ -1,7 +1,6 @@
 # Hi, this is a Illegal_activity tracker project
 Data for the processes <a hreh="https://github.com/sreeragrnandan/Data_Track_illegal_activities">[Click here](https://github.com/sreeragrnandan/Data_Track_illegal_activities)</a>
-<br /> We are planing to make a system that will report illegal activities like smoking in public place, child begging/labour and 
-women haresment
+<br /> We are planning to make a system that will report illegal activities like smoking in a public place, child begging/labour and women harassment
 ## Problem Statement
 We are developing a system to recognise and report illegal activities that often happens in public place such as:
 <br />1) Smoking
